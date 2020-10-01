@@ -1,7 +1,15 @@
+ master
  # ⌨ QR Code Generator ⌨
 This A Program To Convert A String,URL,Any Text To QR Code
 
 # ✨ Its Main Features:-
+
+# ⌨ QR Code Generator ⌨
+
+This A Program To Convert A String,URL,Any Text To QR Code
+
+✨ Its Main Features:-
+master
 
 🖥️ Cross-platform
 
@@ -17,4 +25,8 @@ This A Program To Convert A String,URL,Any Text To QR Code
 
 📈 Usage Once You Have Downloaded , you just have to run it
 
+master
 # 💳 Credits - HRY097
+=======
+💳 Credits - HRY097
+master
