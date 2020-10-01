@@ -1,13 +1,24 @@
-import qrcode 
+from qrcode import QRCode, constants
+from colorama import init , Fore, Back
+print(Fore.GREEN + '''
 
-qr = qrcode.QRCode(
+  ____        _____          _       _____                           _             
+ / __ \      / ____|        | |     / ____|                         | |            
+| |  | |_ __| |     ___   __| | ___| |  __  ___ _ __   ___ _ __ __ _| |_ ___  _ __ 
+| |  | | '__| |    / _ \ / _` |/ _ \ | |_ |/ _ \ '_ \ / _ \ '__/ _` | __/ _ \| '__|
+| |__| | |  | |___| (_) | (_| |  __/ |__| |  __/ | | |  __/ | | (_| | || (_) | |   
+ \___\_\_|   \_____\___/ \__,_|\___|\_____|\___|_| |_|\___|_|  \__,_|\__\___/|_|   
+
+''')
+
+qr = QRCode(
 	version=1,
-    error_correction=qrcode.constants.ERROR_CORRECT_H,
+    error_correction=constants.ERROR_CORRECT_H,
 	box_size=5,
 	border=5
 )   
 
-user_input = input("Enter you string : ")
+user_input = input(Fore.CYAN + "Enter you string : ")
 
 qr.add_data(user_input)
 qr.make(fit=True)
