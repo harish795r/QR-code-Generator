@@ -9,7 +9,6 @@ This A Program To Convert A String,URL,Any Text To QR Code
 This A Program To Convert A String,URL,Any Text To QR Code
 
 ✨ Its Main Features:-
-master
 
 🖥️ Cross-platform
 
@@ -24,9 +23,3 @@ master
 🔧 Portable No Need To Isstall
 
 📈 Usage Once You Have Downloaded , you just have to run it
-
-master
-# 💳 Credits - HRY097
-=======
-💳 Credits - HRY097
-master
